@@ -8,7 +8,7 @@ Take Home Assignment
 
 # now open the git cmd window and type git clone and paste the repository url and hit enter (git clone https://github.com/sagarsmily01/userInformation.git)
 
-# once the project get cloned then type cd and the repository name that is cloned (cd user-information)
+# once the project get cloned then type cd and the repository name that is cloned (cd userInformation\user-information)
 
 # after that you need to install the node modules to run the project locally for that in cmd window type (npm install), and it will install the node modules in your project 
 
