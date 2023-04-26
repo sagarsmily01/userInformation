@@ -2,10 +2,6 @@
 Take Home Assignment
 
 
-# userInformation
-Take Home Assignment
-
-
 # first of all go to the repository (https://github.com/sagarsmily01/userInformation)
 
 # then copy the HTTPS URL from the repository (https://github.com/sagarsmily01/userInformation.git)
