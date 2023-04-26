@@ -1,0 +1,34 @@
+  <div>
+    <nav class="navBar">
+      <ul class="navUl">
+        <li><a href="#" class="nav-link active" (click)="showUsrList(true)">User Information</a></li><span class="pipe"> &#124;</span>
+        <li><a href="#" class="nav-link" (click)="showUsrList(false)">About Us</a></li><span class="pipe"> &#124;</span>
+        <li><a href="#" class="nav-link" (click)="showUsrList(false)">Contact</a></li>
+        <li><a class="nav-link">{{currDate | date: 'dd-MMMM-yy'}}</a></li>
+      </ul>
+    </nav>
+
+    <div *ngIf="showUsers">
+      <h4 style="padding: 0 15px;">User's List</h4>
+      <div class="list">
+        <ul>
+          <li>Id</li>
+          <li>Name</li>
+          <li>UserName</li>
+          <li>Email</li>
+          <li>Address</li>
+          <li>Phone Number</li>
+          <li>Company</li>
+        </ul>
+        <ul *ngFor="let item of userInformations">
+          <li>{{item.id}}</li>
+          <li>{{item.name}}</li>
+          <li>{{item.username}}</li>
+          <li>{{item.email}}</li>
+          <li>{{item.fullAddress}}</li>
+          <li>{{item.phone}}</li>
+          <li>{{item.companyName}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,70 @@
+html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.navBar {
+    background: #4370c1;
+    height: 60px;
+}
+.navBar li {
+    display: inline-block;
+    list-style: none;
+    height: 50px; 
+    line-height: 35px;
+}
+.navBar li:hover {
+    transition: background .3s;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.pipe {
+    color: #fff;
+}
+.active{
+    font-weight: 900;
+}
+.navUl {
+    line-height: 50px;
+    padding: 0px 15px;
+}
+nav li:last-child {
+    float: right;
+    line-height: 50px;
+}
+
+
+.list ul:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+.list ul:nth-child(even) {
+    background-color:#fff;
+}
+  
+.list {
+    display:table;
+    margin:1em;
+}
+
+.list ul {
+    display:table-row;
+}
+
+.list ul:first-child li {
+    background-color:#6c757d;
+    color:#fff;
+}
+
+.list ul > li {
+    display:table-cell;
+    padding:.5em 1em;
+}
